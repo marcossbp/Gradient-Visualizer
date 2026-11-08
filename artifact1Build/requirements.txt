@@ -1,0 +1,34 @@
+# ============================================================
+# 3D Gradient Descent Visualizer - dependencies & how to run it
+# ============================================================
+#
+# All commands are run in PowerShell from this folder (artifactBuild).
+#
+# 1. FIRST TIME SETUP (only once per computer)
+#    Create a virtual environment (the .venv folder is ignored by git):
+#        python -m venv .venv
+#    Install the libraries listed at the bottom of this file:
+#        .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# 2. RUN THE APP
+#        .\.venv\Scripts\python.exe -m streamlit run app.py
+#    The app opens in the browser at http://localhost:8501
+#
+#    Alternative: activate the environment first and then use the short command
+#        .\.venv\Scripts\Activate.ps1
+#        streamlit run app.py
+#    (If PowerShell blocks the activation script, use the full command above instead.)
+#
+# 3. FIRST RUN ONLY
+#    Streamlit asks for an email address in the terminal.
+#    Press Enter to skip it; it will not ask again.
+#
+# 4. STOP THE APP
+#    Press Ctrl+C in the terminal.
+#
+# ------------------------------------------------------------
+# Libraries
+# ------------------------------------------------------------
+numpy
+plotly
+streamlit
